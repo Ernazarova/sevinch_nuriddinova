@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    }
+    body{
+    background-image: url(https://mobimg.b-cdn.net/v3/fetch/0e/0e15cfed4b368a8dbd4a4450635d7fc1.jpeg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 16px;
+    }
+    a{
+    text-decoration: none;
+    }
+    header{
+    display: -webkit-flex;
+    display: -moz-fex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    padding: 30px 70px;
+    }
+    .logo{
+    cursor: pointer;
+    }
+    .nav-area{
+    list-style: none;
+    }
+    .nav-area li{
+    display: inline-block;
+    padding: 0 15px;
+    text-transform: uppercase;
+    
+    }
+    .nav-area li a{
+    transition: .3s;
+    color: #fff;
+    }
+    .nav-area li a:hover{
+    color:#d22938 ;
+    }
+    .s{
+        margin: 40px;
+        padding: 30px;
+    }
+    div{
+        display: flex;
+    }
+    .lokal{
+        background-color: yellow;
+    }
+    .box{
+        margin: 10px;
+        padding: 10px;
+        background-color: whitesmoke;
+    }
+    .enter{
+        background-color: rgb(132, 236, 132);
+    }
+    input{
+       background-color: #d22938;
+    }
+    .login{
+    text-align: center;
+    }
+    .d{
+        height: 20px;
+        width: 10px;
+    }
